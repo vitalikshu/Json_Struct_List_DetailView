@@ -11,6 +11,8 @@
 		1625F67225CC0C4200409349 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625F67125CC0C4200409349 /* ContentView.swift */; };
 		1625F67425CC0C4400409349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1625F67325CC0C4400409349 /* Assets.xcassets */; };
 		1625F67725CC0C4400409349 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1625F67625CC0C4400409349 /* Preview Assets.xcassets */; };
+		1625F68025CC0C5600409349 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625F67F25CC0C5600409349 /* GetData.swift */; };
+		166A488C25DC3CF500DC6D67 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166A488B25DC3CF500DC6D67 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		1625F67325CC0C4400409349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1625F67625CC0C4400409349 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1625F67825CC0C4400409349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1625F67F25CC0C5600409349 /* GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
+		166A488B25DC3CF500DC6D67 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				1625F67325CC0C4400409349 /* Assets.xcassets */,
 				1625F67825CC0C4400409349 /* Info.plist */,
 				1625F67525CC0C4400409349 /* Preview Content */,
+				1625F67F25CC0C5600409349 /* GetData.swift */,
+				166A488B25DC3CF500DC6D67 /* DetailView.swift */,
 			);
 			path = JsonInSwiftUi;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1625F67225CC0C4200409349 /* ContentView.swift in Sources */,
+				166A488C25DC3CF500DC6D67 /* DetailView.swift in Sources */,
 				1625F67025CC0C4200409349 /* JsonInSwiftUiApp.swift in Sources */,
+				1625F68025CC0C5600409349 /* GetData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
